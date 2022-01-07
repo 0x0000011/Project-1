@@ -158,3 +158,15 @@ useful:Button("Right Alt Toggle Infinite Jump", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/0x0000011/Toggle-Infinite-Jump/main/Toggle%20Infinite%20Jump.lua"))()
 	DiscordLib:Notification("Done!", "Epic!", "I know!")
 end)
+
+useful:Button("FilterShark (Remote Spy)", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0x0000011/FilterShark/main/FilterShark.lua"))()
+	DiscordLib:Notification("Done!", "Spy moment", "...")
+end)
+
+useful:Seperator()
+
+useful:Button("Infinite Yield", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	DiscordLib:Notification("Done!", "Yea success", "I can see!")
+end)
