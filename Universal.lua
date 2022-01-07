@@ -30,8 +30,6 @@ bypass:Button("Bypass Client-Side Kicks", function()
 	DiscordLib:Notification("Done!", "Edited metatables!", "Nice!")
 end)
 
-bypass:Seperator()
-
 bypass:Button("Bypass Walk Speed", function()
 	local gmt = getrawmetatable(game)
 	setreadonly(gmt, false)
@@ -49,8 +47,6 @@ bypass:Button("Bypass Walk Speed", function()
 
 	DiscordLib:Notification("Done!", "Edited metatables!", "Nice!")
 end)
-
-bypass:Seperator()
 
 bypass:Button("Bypass Jump Power", function()
 	local gmt = getrawmetatable(game)
@@ -70,13 +66,8 @@ bypass:Button("Bypass Jump Power", function()
 	DiscordLib:Notification("Done!", "Edited metatables!", "Nice!")
 end)
 
-bypass:Seperator()
-
 bypass:Label("These bypasses are universal and they should work anywhere.")
-bypass:Seperator()
 bypass:Label("Well if they don't use a very advanced anti-cheat i guess.")
-
-bypass:Seperator()
 bypass:Label("These buttons that are down here may break some games.")
 bypass:Seperator()
 
@@ -97,8 +88,6 @@ bypass:Button("Always Return Health To 0", function()
 
 	DiscordLib:Notification("Done!", "Edited metatables!", "Nice!")
 end)
-
-bypass:Seperator()
 
 bypass:Button("Always Return Health to 100", function()
 	local gmt = getrawmetatable(game)
@@ -145,14 +134,11 @@ useful:Button("Alt + Click Delete", function()
 	DiscordLib:Notification("Done!", "Did not edit metatables!", "Wow, Nice!")
 end)
 
-useful:Seperator()
 
 useful:Button("Ctrl + Click Teleport", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/0x0000011/Ctrl-Click-Teleport/main/Ctrl%20Click%20Teleport.lua"))()
 	DiscordLib:Notification("Done!", "Yes successfully executed", "Ok!")
 end)
-
-useful:Seperator()
 
 useful:Button("Right Alt Toggle Infinite Jump", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/0x0000011/Toggle-Infinite-Jump/main/Toggle%20Infinite%20Jump.lua"))()
@@ -163,8 +149,6 @@ useful:Button("FilterShark (Remote Spy)", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/0x0000011/FilterShark/main/FilterShark.lua"))()
 	DiscordLib:Notification("Done!", "Spy moment", "...")
 end)
-
-useful:Seperator()
 
 useful:Button("Infinite Yield", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
